@@ -1,8 +1,8 @@
-apiVersion: constraints.gatekeeper.sh/v1beta1
-kind: K8sNoExternalServices
-metadata:
-  name: no-external
-spec:
-  parameters:
-    internalCIDRs:
-      - ""
+# apiVersion: constraints.gatekeeper.sh/v1beta1
+# kind: K8sNoExternalServices
+# metadata:
+#   name: no-external
+# spec:
+#   parameters:
+#     internalCIDRs:
+#       - ""
